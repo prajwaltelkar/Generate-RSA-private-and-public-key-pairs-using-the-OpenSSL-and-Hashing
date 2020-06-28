@@ -38,16 +38,18 @@ Similarly, shasum is an encryption program that calculates and verifies SHA hash
 
 ### MD5
 
-1.Creating a text file containing some data creates a text file called "file.txt" with a single line of basic text in it.<br>
+##### 1.Creating a text file containing some data creates a text file called "file.txt" with a single line of basic text in it.<br>
 * Generate the MD5 sum for the file and store it<br>
 * To print then content of the hashed data <br>
+<br>
 <img src="Hashing/images/md5.JPG" width="800" height="400"><br>
 
-2.Verifying a valid file<br>
+##### 2.Verifying a valid file<br>
 * We can also verify that the hash is correct, and that the original file hasn't been tampered with since the sum was made.<br>
+<br>
 <img src="Hashing/images/md5_verify.JPG" width="800" height="400"><br>
 
-3.Verifying an invalid file <br>
+##### 3.Verifying an invalid file <br>
 * The security of this process by showing how even a single-character change to the file results in a different hash.<br>
 * Create a copy of the text file, and insert a single space at the end of the file. <br>
 * Then generate a new md5sum for the new file. <br>
@@ -55,6 +57,7 @@ Similarly, shasum is an encryption program that calculates and verifies SHA hash
 * The data has been modified in the bad_file.txt .<br>
 * To see how different the hash of the edited file is, generate a new hash.<br>
 * For reference,the contents of the original sum were<br>
+<br>
 <img src="Hashing/images/bad_file.JPG" width="800" height="400"><br>
 
 ### SHA1
@@ -62,17 +65,19 @@ Similarly, shasum is an encryption program that calculates and verifies SHA hash
 The same steps, but for SHA1 and SHA256 hashes using the shasum tool.<br>
 SHA256 is more seccure than SHA1 .<br>
 
-1.To create the SHA1 sum and save it to a file and then the file is verified.
+##### 1.To create the SHA1 sum and save it to a file and then the file is verified.<br>
+<br>
 <img src="Hashing/images/sha1.JPG" width="800" height="400"><br>
 
 ### SHA256 
 
 Same tool can be used to create a SHA256 sum.<br>
 
-1.To create the SHA256sum <br>
+##### 1.To create the SHA256sum <br>
 *The "-a" flag specifies the algorithm to use, and defaults to SHA1 if nothing is specified.* <br>
 * SHA256's increased security comes from it creating a longer hash that's harder to guess. <br>
 * The contents of the file here are much longer than the SHA1 file .<br>
+<br>
 <img src="Hashing/images/sha_256.JPG" width="800" height="400"><br>
 
 
